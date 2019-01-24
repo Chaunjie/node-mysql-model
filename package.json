@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-mysql-model",
+  "version": "1.0.0",
+  "description": "mysql model for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaunjie/node-mysql-model.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "model"
+  ],
+  "author": "chaunjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaunjie/node-mysql-model/issues"
+  },
+  "homepage": "https://github.com/Chaunjie/node-mysql-model#readme"
+}
