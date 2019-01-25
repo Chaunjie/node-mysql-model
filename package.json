@@ -4,11 +4,18 @@
   "description": "mysql model for nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf /lib && babel --presets es2015,stage-1 src --out-dir ./lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chaunjie/node-mysql-model.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
   },
   "keywords": [
     "node",
